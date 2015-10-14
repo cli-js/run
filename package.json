@@ -1,0 +1,31 @@
+{
+  "name": "@cli/run",
+  "version": "0.3.0",
+  "description": "r",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo '1'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cli-js/run.git"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "run",
+    "interface",
+    "flag"
+  ],
+  "author": "Scott Corgan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cli-js/run/issues"
+  },
+  "homepage": "https://github.com/cli-js/run#readme",
+  "dependencies": {
+    "as-array": "^2.0.0",
+    "minimist": "^1.2.0",
+    "ramda": "^0.18.0"
+  }
+}
