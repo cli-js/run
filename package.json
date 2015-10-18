@@ -4,7 +4,7 @@
   "description": "r",
   "main": "index.js",
   "scripts": {
-    "test": "echo '1'"
+    "test": "node ./test.js | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,14 @@
     "as-array": "^2.0.0",
     "minimist": "^1.2.0",
     "ramda": "^0.18.0"
+  },
+  "devDependencies": {
+    "@cli/alias": "^0.3.0",
+    "@cli/app": "^0.3.0",
+    "@cli/command": "^0.3.0",
+    "@cli/flag": "^0.3.0",
+    "@cli/handler": "^0.3.0",
+    "tap-spec": "^4.1.0",
+    "tessed": "^2.2.0"
   }
 }
